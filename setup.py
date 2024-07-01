@@ -19,15 +19,13 @@ except UnicodeDecodeError:
 
 setup(
     name="Prasar",
-    version="1.1.3",
+    version="1.2.1",
     author="Abhishek Mishra",
     author_email="mishraabhishek.2899@gmail.com",
     description="A robust event handling framework for Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/mishrababhishek/prasar",
-    package_data={"": ["logo.png"]},
-    include_package_data=True,
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
